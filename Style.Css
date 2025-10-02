@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header {
+      align-items: center;
+      text-align: center;
+      background: #333;
+      padding: 30px;
+      font-style: normal;
+      font-size: medium;
+      font-weight: bolder;
+      display: flex;
+     gap: 30px;
+     justify-content: center;
+      
+}
+
+
+.from-left { animation: fromLeft 4s ease forwards;}
+@keyframes fromLeft {
+    0% { transform: translateX(-600px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+
+
+.from-right { animation: fromRight 4s ease forwards;}
+@keyframes fromRight {
+    0% { transform: translateX(600px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+#home {
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background: url("photo/bacground1.jpg") center / cover no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    gap: 10rem;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: rgb(85, 98, 99);
+    font-weight: 800;
+    transition: 0.2ms;
+}
+
+button {
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 800;
+
+}
+
+button:hover {
+    color:white;
+    background-color: #000000;
+    border-color: #000000;
+     border: 1px solid;
+}
+.paragraphe1 {
+    color: white;
+}
+.paragraphe2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+
+}

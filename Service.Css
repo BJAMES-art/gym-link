@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    align-items: center;
+    background: #333;
+    padding: 10px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.headerapropos {
+    display: flex;
+}
+.About {
+     height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("photo/bacground1.jpg") center / cover no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    gap: 10rem;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: rgb(85, 98, 99);
+    font-weight: 800;
+    transition: 0.2ms;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.from-left { animation: fromLeft 4s ease forwards;}
+@keyframes fromLeft {
+    0% { transform: translateX(-600px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+
+
+.from-right { animation: fromRight 4s ease forwards;}
+@keyframes fromRight {
+    0% { transform: translateX(600px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+button {
+    transition: 0.5ms; 
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 800;
+
+}
+
+button:hover {
+    color:white;
+    background-color: #000000;
+    border-color: #000000;
+     border: 1px solid;
+}
+
+
+.paragr1 {
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    font-weight: 50%;
+}
+
+#server{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+#for_you{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+} 
+
+.Service1{
+    height: 87vh;
+    width: 30%;
+    /* background: #333; */
+    background: url("photo/perte de poids.jpeg") center / cover no-repeat ;
+    margin: 2%;
+    border-radius: 5px;
+    border: 2px solid #0a0a0a;
+}
+
+.Service1 button{
+    margin-top: 500px;
+     color:white;
+    background-color: #000000;
+    border-color: white;
+
+}
+
+.perte {
+    color: white;
+}
+
+
+.Service2{
+    height: 87vh;
+    width: 30%;
+    /* background: #333; */
+    background: url("photo/gain de muscle simple .jpeg") center / cover no-repeat ;
+    margin: 2%;
+    border-radius: 5px;
+    border: 2px solid #0a0a0a;
+}
+
+.Service2 button{
+    margin-top: 500px;
+     color:white;
+    background-color: #000000;
+    border-color: white;
+
+}
+.gain {
+    color: white;
+}
+
+.Service3{
+    height: 87vh;
+    width: 30%;
+    /* background: #333; */
+    background: url("photo/bodybuilding.jpeg") center / cover no-repeat ;
+    margin: 2%;
+    border-radius: 5px;
+    border: 2px solid #0a0a0a;
+}
+
+.Service3 button{
+    margin-top: 500px;
+     color:white;
+    background-color: #000000;
+    border-color: white;
+
+}
+.body {
+    color: white;
+}
+
+.special{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    margin-bottom: 20px;
+
+}
+
+
+
+.btnspecial {
+    bottom: 70%;
+}
+
+.paragrspecialone {
+    color: white;
+    font-weight: 50%;
+}
+
+ul {
+    list-style: none;
+    gap: 13rem;
+    margin-bottom: 280px;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pfooter {
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
